@@ -8,9 +8,11 @@ Created on Fri Mar 19 16:41:55 2021
 
 import numpy as np
 import matplotlib.pyplot as plt
-x = np.range(-10.0, 10.01, 0,01)
-t = np.range(-10, 11, 1)
+x = np.arange(-10.0, 10.01, 0.01)
+t = np.arange(-10, 11, 1)
 
 #subplot 1
-
-#subplo
+sp = plt.subplot(221)
+plt.plot(x, np.sin(x))
+plt.title(r'$sin(x)$')
+plt.grid(True)
