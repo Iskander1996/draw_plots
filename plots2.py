@@ -26,3 +26,17 @@ plt.grid(True)
 plt.title(r'$cos(x)$')
 
 #subplot 3
+sp = plt.subplot(2, 2, 3)
+plt.plot(x, x**2, t, t**2, 'ro')
+plt.title(r'$x^2$')
+
+#subplot 4
+sp = plt.subplot(2, 2 ,4)
+plt.plot(x, x)
+plt.spines['bottom'].set_position('center')
+plt.spines['left'].set_position('left')
+plt.grid(True)
+plt.title(r'$x$')
+
+
+plt.show()
