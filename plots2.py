@@ -37,6 +37,4 @@ plt.spines['bottom'].set_position('center')
 plt.spines['left'].set_position('left')
 plt.grid(True)
 plt.title(r'$x$')
-
-
 plt.show()
