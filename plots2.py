@@ -33,8 +33,8 @@ plt.title(r'$x^2$')
 #subplot 4
 sp = plt.subplot(2, 2 ,4)
 plt.plot(x, x)
-plt.spines['bottom'].set_position('center')
-plt.spines['left'].set_position('left')
+sp.spines['left'].set_position('center')
+sp.spines['bottom'].set_position('center')
 plt.grid(True)
 plt.title(r'$x$')
 
